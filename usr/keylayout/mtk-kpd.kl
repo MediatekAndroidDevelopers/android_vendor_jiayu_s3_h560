@@ -11,7 +11,7 @@ key 10    9
 key 11    0
 key 158   BACK
 key 230   SOFT_RIGHT
-key 60    SOFT_RIGHT
+key 60    F2
 key 107   ENDCALL
 key 62    ENDCALL
 key 229   MENU
@@ -22,7 +22,7 @@ key 217   SEARCH
 key 228   POUND
 key 227   STAR
 key 231   CALL
-key 61    CALL
+key 61    F3
 key 232   DPAD_CENTER
 key 108   DPAD_DOWN
 key 103   DPAD_UP
