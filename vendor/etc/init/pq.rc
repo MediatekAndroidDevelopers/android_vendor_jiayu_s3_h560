@@ -1,0 +1,5 @@
+service pq /system/bin/pq
+    class main
+    user system
+    group system graphics
+    oneshot

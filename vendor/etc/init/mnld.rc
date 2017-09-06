@@ -1,0 +1,6 @@
+# GPS
+service mnld /system/bin/mnld
+    class main
+    user gps
+    group gps inet misc sdcard_rw sdcard_r media_rw system
+    socket mnld stream 660 gps system
