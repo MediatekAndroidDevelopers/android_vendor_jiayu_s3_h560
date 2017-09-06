@@ -4,11 +4,11 @@ on property:vold.decrypt=trigger_restart_min_framework
 on property:vold.decrypt=trigger_restart_framework
     start msensord
 
-service msensord /system/bin/msensord
+service msensord /vendor/bin/msensord
     class main
     oneshot
 
-service mxg2320d /system/bin/mxg2320d
+service mxg2320d /vendor/bin/mxg2320d
     disabled
     user system
     group system

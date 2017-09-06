@@ -1,4 +1,4 @@
-service pq /system/bin/pq
+service pq /vendor/bin/pq
     class main
     user system
     group system graphics
