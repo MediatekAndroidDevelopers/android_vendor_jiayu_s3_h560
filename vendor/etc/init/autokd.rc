@@ -1,0 +1,5 @@
+# For WiFi High Speed calibration
+service autokd /vendor/bin/autokd
+    class core
+    user system
+    group system
