@@ -4,7 +4,7 @@ service wmtLoader /vendor/bin/wmt_loader
     class core
     oneshot
 
-service conn_launcher /vendor/bin/6620_launcher -p /vendor/etc/firmware/
+service conn_launcher /vendor/bin/6620_launcher -m 4 -p /vendor/etc/firmware/
     user system
     group system
     class core
