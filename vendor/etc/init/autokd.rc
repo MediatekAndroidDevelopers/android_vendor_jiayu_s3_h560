@@ -3,3 +3,4 @@ service autokd /vendor/bin/autokd
     class core
     user system
     group system
+    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
